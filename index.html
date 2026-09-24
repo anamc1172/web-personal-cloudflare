@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana - Portafolio Personal</title>
+    <meta name="description" content="Página personal de Ana. Hola hagamos un mundo mejor.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">Ana.</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#sobre-mi">SOBRE MÍ</a></li>
+                <li><a href="#principios">PRINCIPIOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80&w=800" alt="Naturaleza" class="hero-image">
+                </div>
+                <p class="greeting">Hola,</p>
+                <h1 class="title">Soy Ana</h1>
+                <p class="subtitle">hagamos un mundo mejor.</p>
+                <a href="#contacto" class="btn primary-btn">Contáctame <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        Soy una persona comprometida con mi entorno, buscando siempre generar un impacto positivo. Creo firmemente que con pequeñas acciones podemos transformar la sociedad. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="principios" class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card shape-purple">
+                        <i class="fas fa-leaf service-icon"></i>
+                        <h3>Cuida la naturaleza</h3>
+                        <a href="#" class="more-link">MÁS ></a>
+                    </div>
+                    <div class="service-card shape-orange">
+                        <i class="fas fa-hands-helping service-icon"></i>
+                        <h3>Cuida al prójimo</h3>
+                        <a href="#" class="more-link">MÁS ></a>
+                    </div>
+                    <div class="service-card shape-green">
+                        <i class="fas fa-balance-scale service-icon"></i>
+                        <h3>Respeta las reglas</h3>
+                        <a href="#" class="more-link">MÁS ></a>
+                    </div>
+                    <div class="service-card shape-blue">
+                        <i class="fas fa-bullseye service-icon"></i>
+                        <h3>Lucha por tus objetivos</h3>
+                        <p class="service-desc">Siempre respetando al prójimo.</p>
+                        <a href="#" class="more-link">MÁS ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-info">
+                    <a href="mailto:ana@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ana@gmail.com</span>
+                    </a>
+                    <a href="tel:15567832" class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>15567832</span>
+                    </a>
+                    <a href="https://instagram.com/ana72" target="_blank" class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>@ana72</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
